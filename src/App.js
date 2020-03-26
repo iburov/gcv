@@ -5,26 +5,33 @@ import './App.css';
 const App = () => {
   return (
     <div className="App">
-      HTML
-      <ul>
-        <li>first</li>
-        <li>second</li>
-        <li>third</li>
-        <li>fourth</li>
-      </ul>
+      <Header />
+      <Products />
     </div>
   );
 }
 
 const Header = () => {
   return (
-    <div className="App">
-      HTML
+    <div>
       <ul>
-        <address>Home</address>
-        <address>About Us</address>
-        <address>Contact</address>
-        <address>Donate</address>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+        <a href="#">Donate</a>
+      </ul>
+    </div>
+  );
+}
+
+const Products = () => {
+  return (
+    <div>
+      <ul>
+        <li>Bike</li>
+        <li>Dress</li>
+        <li>Lamp</li>
+        <li>Poster</li>
       </ul>
     </div>
   );
