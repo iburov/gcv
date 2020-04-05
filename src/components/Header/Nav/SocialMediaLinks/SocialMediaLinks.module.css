@@ -1,0 +1,23 @@
+.social_media_links {
+    margin-left: auto;
+}
+
+.social_media_links div {
+    margin: 4px 0;
+}
+
+.social_media_links a{
+    position: relative;
+    text-decoration: none;
+    background-color: #fff;
+    color: rgb(43, 43, 43);
+    display: block;
+    border-radius: 15px;
+    width: 18px;
+    height: 18px;
+    padding: 4px;
+}
+
+.social_media_links a:hover{
+    background-color: #aaa;
+}

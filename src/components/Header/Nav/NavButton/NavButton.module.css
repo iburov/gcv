@@ -1,0 +1,15 @@
+.nav_button {
+    display: inline;
+    position: relative;
+    top: 4em;
+}
+
+.nav_button a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d3d3d3;
+    text-decoration: underline;
+}

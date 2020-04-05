@@ -1,0 +1,26 @@
+.footer {
+    background-color: rgb(35, 48, 59);
+    color: #fff;
+}
+
+.upper_footer {
+    display: grid;
+    padding: 1em 20%;
+    background-color: #2C3D4B;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left_upper_footer {
+    grid-column: 1fr;
+}
+
+.right_upper_footer {
+    text-align: right;
+    grid-column: 1fr;
+}
+
+.lower_footer {
+    text-align: center;
+    padding: 1em;
+    border: rgb(25, 35, 43) solid 1em;
+}
