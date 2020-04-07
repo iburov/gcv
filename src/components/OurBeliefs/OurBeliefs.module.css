@@ -1,10 +1,4 @@
-.main {
-    background-color: gray;
-    padding: 6em 20% 1em 20%;
-    background-image: url("https://themediashop-scot.co.uk/wp-content/uploads/2018/07/test-pattern-152459.png");
-}
-
-.main .container {
+.container {
     margin: 2em;
     padding: 2em 8em;
     background-color: rgba(234, 211, 174, 0.9);
@@ -13,7 +7,7 @@
     background-repeat: no-repeat;
 }
 
-.main .container p {
+.container p {
     margin: 2em 0;
 }
 

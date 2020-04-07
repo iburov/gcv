@@ -2,6 +2,7 @@
     display: inline;
     position: relative;
     top: 4em;
+    height: fit-content;
 }
 
 .nav_button a {
@@ -11,5 +12,8 @@
 
 a:hover {
     color: #d3d3d3;
-    text-decoration: underline;
+}
+
+.active {
+    text-decoration: underline !important;
 }

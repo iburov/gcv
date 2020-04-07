@@ -3,7 +3,7 @@ import s from'./Ministries.module.css';
 
 const Ministries = () => {
     return (
-        <div className={s.main}>
+        <div className={s.container}>
            <h1>MINISTRIES</h1>
         </div>
     );

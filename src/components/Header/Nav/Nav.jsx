@@ -5,15 +5,15 @@ import NavButton from './NavButton/NavButton';
 const Nav = () => {
     return (
         <div className={s.nav}>
-            <NavButton value="About Us" link="#" />
-            <NavButton value="Our Beliefs" link="#" />
-            <NavButton value="Ministries" link="#" />
-            <NavButton value="Our Elders" link="#" />
-            <NavButton value="Calendar" link="#" />
-            <NavButton value="Seremons" link="#" />
-            <NavButton value="Seeking God" link="#" />
-            <NavButton value="Contact Us" link="#" />
-            <NavButton value="Give" link="#" />
+            <NavButton value="About Us" link="/about-us" />
+            <NavButton value="Our Beliefs" link="/our-beliefs" />
+            <NavButton value="Ministries" link="/ministries" />
+            <NavButton value="Our Elders" link="/our-elders" />
+            <NavButton value="Calendar" link="/calendar" />
+            <NavButton value="Seremons" link="/seremons" />
+            <NavButton value="Seeking God" link="/seeking-god" />
+            <NavButton value="Contact Us" link="contact-us" />
+            <NavButton value="Give" link="https://www.canadahelps.org/en/dn/30529" target="_blank" style="underline"/>
         </div>
     );
 }

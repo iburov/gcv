@@ -11,3 +11,17 @@ body {
 .wrapper {
   margin: 0 auto;
 }
+
+.main {
+  background-color: gray;
+  padding: 1em 20% 1em 20%;
+  background-image: url("https://themediashop-scot.co.uk/wp-content/uploads/2018/07/test-pattern-152459.png");
+}
+
+.underline {
+  border-bottom: orangered solid 2px;
+}
+
+.active {
+  background-color: orangered;
+}
